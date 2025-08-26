@@ -1,0 +1,71 @@
+/* Default Styles */
+body {
+    background-color: #f0f0f0; /* Default background color set to grey */
+    color: black; /* Default text color */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center; /* Center the header text */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+button {
+    background-color: #0ABAB5; /* Tiffany blue color for buttons */
+    color: white; /* Text color for buttons */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for buttons */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+    background-color: #009B9F; /* Darker shade on hover */
+}
+
+form {
+    margin-bottom: 20px; /* Space below the form */
+}
+
+/* Updated label styles */
+label {
+    display: block; /* Block display for labels */
+    margin: 10px 10px 5px 0; /* Spacing for labels: top, right, bottom, left */
+}
+
+/* Updated input styles */
+input {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding for input fields */
+    margin-bottom: 10px; /* Space below input fields */
+    margin-right: 10px; /* Space on the right */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+#message {
+    font-weight: bold; /* Bold text for messages */
+    margin-top: 10px; /* Space above message */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333; /* Dark background color */
+    color: white; /* Light text color */
+}
+
+button.dark-mode {
+    background-color: #0ABAB5; /* Tiffany blue remains the same */
+}
+
+button.dark-mode:hover {
+    background-color: #009B9F; /* Darker shade on hover remains the same */
+}
+/* Smooth theme change */
+.fade {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
